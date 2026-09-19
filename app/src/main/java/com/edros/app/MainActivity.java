@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout headerBox = new LinearLayout(this);
         headerBox.setOrientation(LinearLayout.VERTICAL);
         GradientDrawable g = new GradientDrawable(
-                GradientDrawable.Orientation.TR_TL,
+                GradientDrawable.Orientation.RIGHT_LEFT
                 new int[]{BLUE, BLUE_DARK});
         g.setCornerRadii(new float[]{0,0,0,0,dp(24),dp(24),dp(24),dp(24)});
         headerBox.setBackground(g);
